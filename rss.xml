@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
     <channel>
-        <title>Vesti</title>
+        <title>News</title>
         <link>https://irenamilanovic.github.io/irellery/index.html</link>
-        <description>RSS za vesti</description>
+        <description>RSS for news</description>
         <item>
             <title>Black Friday Sale</title>
             <link>https://irenamilanovic.github.io/irellery/index.html#vesti</link>
