@@ -1,0 +1,258 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Source Sans 3', sans-serif;
+	
+}
+header{
+	width: 100%;
+	background-image: linear-gradient(#c89cc7, rgba(251, 223, 235, 0));
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 50px;
+	position: absolute;
+}
+.cleaner{
+	clear: both;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	font-weight: bolder;
+	font-size: 23px;
+	color: #5c3362;
+}
+#meni{
+	width: 50%;
+}
+#meni ul{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#meni ul .active a, #meni ul li a:hover{
+	color: #84528d;
+}
+#pozadina{
+	width: 100%;
+	height: 710px;
+	background-image: url("../img/bgimage.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+}
+#naslov{
+	width: 50%;
+	height: 180px;
+	text-align: center;
+}
+#naslov h1{
+	font-size: 90px;
+	letter-spacing: 10px;
+	font-weight: bolder;
+	color: #5c3362;
+}
+#naslov p{
+	font-size: 25px;
+	font-style: italic;
+	color: #5c3362;
+}
+#blokovi{
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 70px auto;
+}
+.blok{
+	justify-content: space-around;
+	width: 30%;
+	margin: 10px 0px;
+}
+img{
+	width: 100%;
+	border-radius: 10px;
+}
+#naslovTekst{
+	width: 100%;
+	margin: 50px 0px;
+}
+h2{
+	color: #5c3362;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 50px;
+}
+.blok h3{
+	text-align: center;
+}
+.slikaTekst{
+	width: 100%;
+	padding: 20px;
+	display: flex; 
+	justify-content: space-around; 
+	margin: 70px auto;
+}
+#sale{
+	width: 90%;
+	display: flex;
+	justify-content: space-around;
+}
+.tekst p{
+	font-size: 24px;
+	text-align: left;
+	font-weight: bold;
+}
+.pMargina{
+	margin-bottom: 35px;
+}
+.slika{
+	width: 30%;
+}
+.tekst{
+	width: 50%;
+}
+.tekst h2{
+	color: #6c4173;
+	font-weight: bolder;
+	font-size: 50px;
+	text-align: left;
+	margin-bottom: 30px;
+}
+.showProdBtn{
+	background-color: #5c3362;
+	border-radius: 5px;
+	padding: 10px;
+	color: #dbc5de;
+}
+.showProdBtn:hover{
+	background-color: #84528d;
+	font-weight: 800;
+}
+.ikonicePocetna{
+	width: 20%;
+}
+.blok2{
+	justify-content: space-around;
+	width: 30%;
+	margin: 10px 0px;
+	text-align: center;
+}
+.blok2 h3{
+	color: #5c3362;
+	font-size: 28px;
+}
+.ikoniceP{
+	font-weight: bold;
+	font-size: 19px;
+}
+footer{
+	margin-top: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background-color: #d7c8da;
+	padding: 50px;
+}
+.footer h4{
+	font-size: 24px;
+	color: #5c3362;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.footer{
+	padding: 10px;
+}
+.footer i{
+	color: #5c3362;
+}
+.footer li{
+	margin-bottom: 10px;
+}
+.footer .fa-facebook-f, .fa-instagram, .fa-sitemap{
+	margin-right: 10px;
+}
+#footer2{
+	background-color: #5c3362;
+	text-align: center;
+	padding: 20px;
+	color: #d7c8da;
+}
+#slikaTekstAutor{
+	width: 80%;
+	padding: 20px;
+	display: flex; 
+	justify-content: space-around; 
+	margin: 70px auto;
+}
+.naslovAboutAuthor{
+	text-align: left;
+	margin-bottom: 20px;
+}
+.pAboutAuthor{
+	font-size: 24px;
+}
+#slikaAutor{
+	width: 25%;
+}
+#tekstAutor{
+	width: 50%;
+}
+span{
+	font-size: 26px;
+	color: #5c3362;
+	font-weight: bolder;
+}
+#slikaAbout{
+	width: 25%;
+}
+#tekstAbout{
+	width: 65%;
+}
+#forma{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+#forma form{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.form{
+	width: 70%;
+	margin-bottom: 10px;
+}
+#forma input, #forma textarea{
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid rgb(128, 127, 127);
+	font-family: 'Source Sans 3', sans-serif;
+}
+label{
+	font-size: 21px;
+}
+#forma #btnMessage{
+	width: 30%;
+	background-color: #5c3362;
+	padding: 10px;
+	color: #d7c8da;
+	font-size: 20px;
+}
+#forma #btnMessage:hover{
+	background-color: #84528d;;
+	font-weight: 800;
+}
