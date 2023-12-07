@@ -16,6 +16,18 @@ header{
 	padding: 10px 50px;
 	position: absolute;
 }
+#logo{
+	animation-name: logoAnimation;
+	animation-duration: 2s;
+}
+@keyframes logoAnimation{
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 2;
+	}
+}
 .cleaner{
 	clear: both;
 }
@@ -56,6 +68,16 @@ a{
 	width: 50%;
 	height: 180px;
 	text-align: center;
+	animation-name: naslovAnimation;
+	animation-duration: 2s;
+}
+@keyframes naslovAnimation {
+	from {
+		transform: scale(0);
+	}
+	to {
+		transform: scale(1);
+	}
 }
 #naslov h1{
 	font-size: 90px;
@@ -79,6 +101,12 @@ a{
 	justify-content: space-around;
 	width: 30%;
 	margin: 10px 0px;
+	transition-duration: 0.3s;
+}
+.blok:hover{
+	transition: ease-out;
+	transform: scale(1.1);
+	transition-duration: 0.3s;
 }
 img{
 	width: 100%;
@@ -130,15 +158,14 @@ h2{
 	text-align: left;
 	margin-bottom: 30px;
 }
-.showProdBtn{
+.tekst a{
 	background-color: #5c3362;
 	border-radius: 5px;
 	padding: 10px;
 	color: #dbc5de;
 }
-.showProdBtn:hover{
+.tekst a:hover{
 	background-color: #84528d;
-	font-weight: 800;
 }
 .ikonicePocetna{
 	width: 20%;
@@ -258,4 +285,13 @@ label{
 #forma #btnMessage:hover{
 	background-color: #84528d;;
 	font-weight: 800;
+}
+#naslov h1{
+	animation: mymove 3s;
+  	animation-fill-mode: backwards;
+	animation-timing-function: ease;
+}
+@keyframes mymove{
+	from {right: 0px;}
+  	to {right: 300px;}
 }
